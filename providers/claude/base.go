@@ -31,7 +31,7 @@ type ClaudeProvider struct {
 func getConfig() base.ProviderConfig {
 	return base.ProviderConfig{
 		BaseURL:         "https://api.anthropic.com",
-		ChatCompletions: "/v1/messages",
+		ChatCompletions: "v1/chat/completion",
 	}
 }
 
